@@ -1,0 +1,61 @@
+.signIn {
+  width: 40%;
+  height: 100%;
+  text-align: center;
+  margin-left: 30%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 1%;
+  margin-top: 50px;
+}
+
+.selection,
+.signIn h1,
+.signIn button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.signIn img {
+  height: 50vh !important;
+  width: 25vw !important;
+}
+
+.signIn select {
+  height: 50px !important;
+  outline: #2e4c7b;
+  border: 1px solid #2e4c7b;
+}
+.signIn button {
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #2e4c7b;
+  color: white;
+}
+
+@media (max-width: 1090px) {
+  .signIn {
+    width: 70%;
+    margin: 0px 15%;
+  }
+  .signIn img {
+    height: 70vh !important;
+    width: 50vw !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .signIn {
+    width: 100%;
+    margin: 0px;
+  }
+  .signIn img {
+    height: 70vh !important;
+    width: 100vw !important;
+  }
+}

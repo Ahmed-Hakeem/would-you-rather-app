@@ -1,0 +1,13 @@
+.Questionnare ul {
+  padding: 0px;
+}
+.Questionnare input,
+.Submit {
+  cursor: pointer;
+}
+.Submit {
+  background-color: #05445e;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}

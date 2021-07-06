@@ -1,0 +1,56 @@
+.NewQuestion {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  text-align: center;
+  padding: 3% 0;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 40%;
+  padding: 2% 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.wrapper:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.Title,
+.Question-Info {
+  width: 90%;
+}
+.Title {
+  background-color: #c3e0e5;
+  border: 1px solid #5885af;
+}
+.options {
+  display: block;
+  margin-bottom: 10px;
+  height: 30px;
+  width: 100%;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  text-indent: 10px;
+}
+
+.submit {
+  background-color: #5885af;
+  color: white;
+  width: 8vw;
+  height: 8vh;
+  cursor: pointer;
+  font-size: 1.4vw;
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    width: 80%;
+  }
+
+  .submit {
+    height: 4vh;
+  }
+}

@@ -1,0 +1,60 @@
+.LeaderBoard ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.user {
+  box-sizing: border-box;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+
+  margin: 20px;
+}
+.user-info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 65%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.user-info img {
+  width: 30%;
+  height: 90%;
+}
+.score-details {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.Answered,
+.questioned {
+  width: 100%;
+  display: inline-block;
+  height: 10%;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.score-value {
+  width: 50%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  text-align: center;
+  background-color: #19526be3;
+  color: white;
+}
+
+@media (max-width: 840px) {
+  .score-value h3 {
+    margin: 0px;
+  }
+}
